@@ -20,7 +20,7 @@ O projeto da sua máquina precisa conversar com o projeto que está lá no Githu
 git remote add origin https://github.com/seunome/suapasta.git
 ```
 
-Agora que a nossa pasta já sabe para onde ela deve ir, vamos pedir que ela vá! Vamos subir os nossos commits que estão em nossa pasta para a pasta que criamos no Github usando o comando push:
+Agora que a nossa pasta já sabe para onde ela deve ir, vamos pedir que ela vá! Vamos subir os nossos commits, que estão em nossa pasta, para a pasta que criamos no Github usando o comando push:
 
 ```text
 git push origin master
@@ -28,7 +28,7 @@ git push origin master
 
 ![](../../.gitbook/assets/captura-de-tela-de-2019-05-23-10-19-14.png)
 
-No primeiro push precisamos especificar o apelido do remote, e a branch que enviaremos. O Remote é o endereço do repositório, por padrão chamamos ele de origin, mas você pode adicionar novos remotes com outros apelidos depois. A primeira branch por padrão chamamos de master, vamos aprender o que são elas em outras aulas.
+No primeiro push precisamos especificar o apelido do remote e a branch que enviaremos. O Remote é o endereço do repositório, por padrão chamamos ele de origin, mas você pode adicionar novos remotes com outros apelidos depois. A primeira branch, por padrão, chamamos de master. Vamos aprender o que são elas em outras aulas.
 
 Nos próximos commits que você desejar enviar, não precisa necessariamente dizer essas informações, a não ser que elas tenham mudado. Basta usar o push assim:
 
